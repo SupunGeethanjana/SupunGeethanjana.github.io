@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import ReactGA from 'react-ga4';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Hero from './sections/Hero';
@@ -12,6 +13,10 @@ import Blogs from './sections/Blogs';
 import Contact from './sections/Contact';
 
 function App() {
+    useEffect(() => {
+        ReactGA.initialize("G-WQF599PV3C");
+        ReactGA.send({ hitType: "pageview", page: window.location.pathname });
+    }, []);
     // Smooth scrolling for anchor links 
     // (Note: standard CSS scroll-behavior: smooth in index.html handles most, 
     // but this ensures better compat if needed, or we can just rely on CSS)
