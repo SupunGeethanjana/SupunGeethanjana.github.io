@@ -5,13 +5,13 @@ import { FaQuoteLeft } from 'react-icons/fa';
 const testimonialsData = [
     {
         name: "Kavinda Nishshanka",
-        role: "Consultant Architect",
+        role: "Software Architect | Consultant AI/R&D/Platform",
         text: "I had the pleasure of working with Supun and was consistently impressed by his strong sense of ownership and leadership. He has an exceptional ability to quickly grasp new technologies and project requirements, allowing him to deliver effective and timely solutions. Supun is not only technically proficient but also a fantastic team player.",
         image: "/kavinda.jpg"
     },
     {
         name: "Himashmy Benaragama",
-        role: "Senior QA Engineer",
+        role: "Senior Software QA Engineer",
         text: "Supun is a true asset to any development team. Whether guiding junior developers, making strategic technical decisions, or ensuring cross-functional alignment, Supun leads with confidence and clarity. He is always willing to support teammates, share knowledge, and contribute to a positive and productive work environment.",
         image: "/himashmy.jpg"
     },

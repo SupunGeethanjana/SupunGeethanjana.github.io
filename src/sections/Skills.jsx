@@ -2,9 +2,9 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 const skillsData = {
-    "Frontend": ["React", "Next.js", "TypeScript", "Tailwind CSS", "Redux", "Framer Motion"],
-    "Backend": ["Node.js", "Express", "NestJS", "PostgreSQL", "MongoDB", "GraphQL"],
-    "DevOps & Tools": ["Docker", "AWS", "CI/CD", "Git", "Jest", "Webpack"],
+    "Frontend": ["React", "Next.js", "TypeScript", "Tailwind CSS", "Redux", "Angular", "Html"],
+    "Backend": ["SpringBoot", "Node.js", "Express", "NestJS", "PostgreSQL", "MongoDB", "GraphQL"],
+    "DevOps & Tools": ["Linux", "Docker", "AWS", "GCP", "CI/CD", "Git", "ArgoCD", "Jenkins", "Kubernetes"],
     "Soft Skills": ["Team Leadership", "Mentoring", "Agile/Scrum", "Problem Solving", "Communication", "Code Review"]
 };
 
