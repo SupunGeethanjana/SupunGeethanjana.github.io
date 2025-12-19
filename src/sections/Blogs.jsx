@@ -37,7 +37,7 @@ const Blogs = () => {
                         </motion.a>
 
                         <motion.a
-                            href="https://medium.com/@supungeethanjana1"
+                            href="https://blog.supungeethanjana.com/"
                             target="_blank"
                             rel="noopener noreferrer"
                             whileHover={{ y: -5 }}

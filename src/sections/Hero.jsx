@@ -33,7 +33,7 @@ const Hero = () => {
                             <a href="https://github.com/SupunGeethanjana" target="_blank" rel="noopener noreferrer" className="text-muted hover:text-accent transition-colors">
                                 <FaGithub size={30} />
                             </a>
-                            <a href="https://medium.com/@supungeethanjana1" target="_blank" rel="noopener noreferrer" className="text-muted hover:text-accent transition-colors">
+                            <a href="https://blog.supungeethanjana.com/" target="_blank" rel="noopener noreferrer" className="text-muted hover:text-accent transition-colors">
                                 <FaMedium size={30} />
                             </a>
                             <a href="https://dev.to/supun_geethanjana" target="_blank" rel="noopener noreferrer" className="text-muted hover:text-accent transition-colors">
