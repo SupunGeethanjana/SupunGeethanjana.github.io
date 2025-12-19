@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FaEnvelope, FaLinkedin, FaGithub, FaFileDownload, FaPhone, FaDev } from 'react-icons/fa';
+import { FaEnvelope, FaLinkedin, FaGithub, FaFileDownload, FaPhone, FaDev, FaMedium } from 'react-icons/fa';
 
 const Contact = () => {
     return (
@@ -30,6 +30,10 @@ const Contact = () => {
                         <a href="https://www.linkedin.com/in/geethanjana-jayasinghe-939958132/" target="_blank" rel="noopener noreferrer" className="flex items-center space-x-3 text-text hover:text-accent transition-colors text-lg">
                             <FaLinkedin size={24} />
                             <span>LinkedIn</span>
+                        </a>
+                        <a href="https://blog.supungeethanjana.com/" target="_blank" rel="noopener noreferrer" className="flex items-center space-x-3 text-text hover:text-accent transition-colors text-lg">
+                            <FaMedium size={24} />
+                            <span>Medium</span>
                         </a>
                         <a href="https://github.com/SupunGeethanjana" target="_blank" rel="noopener noreferrer" className="flex items-center space-x-3 text-text hover:text-accent transition-colors text-lg">
                             <FaGithub size={24} />
